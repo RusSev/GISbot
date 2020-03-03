@@ -4,9 +4,6 @@ import pyowm
 owm = pyowm.OWM('63294dff63640c2518e4cfccb3fabcde', language="ru")
 bot = telebot.TeleBot("1113301191:AAGiCwjps9e7waWM9ttxWBN2l1VuOQRDAoQ")
 
-observation = owm.weather_at_place('place')
-w = observation.get_weather()
-
 @bot.message_handler(content_types=['text'])
 def send_echo(message):
     observation = owm.weather_at_place(message.text)
