@@ -1,2 +1,2 @@
 TOKEN = '1113301191:AAGiCwjps9e7waWM9ttxWBN2l1VuOQRDAoQ'
-APP_NAME = 'bot'
+APP_NAME = 'igornotrobot'
