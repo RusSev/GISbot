@@ -1,4 +1,4 @@
-telebot
+pyTelegramBotApi
 pyowm
 flask
 gunicorn
