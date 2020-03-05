@@ -27,7 +27,7 @@ if __name__ == "__main__":
     server.run(host="0.0.0.0", port=int(os.environ.get('PORT', 5000)))
 
 owm = pyowm.OWM('63294dff63640c2518e4cfccb3fabcde', language="ru")
-bot = telebot.TeleBot("1113301191:AAGiCwjps9e7waWM9ttxWBN2l1VuOQRDAoQ")
+bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(content_types=['text'])
 def send_echo(message):
